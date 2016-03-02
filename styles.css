@@ -1,0 +1,65 @@
+
+body {
+	background: #5E93C9;
+	font-size: 9px;
+	color: white;
+	font-family: Helvetica;
+	font-weight: 500;
+}
+
+::-webkit-input-placeholder {
+	color:darkgrey;
+}
+
+input:focus {
+	font-style:normal;
+	background-color: #CEDEE3;
+	color: #444F59;
+	border:2px solid #0E3EB7;
+}
+
+.replicate {
+	float: left;
+	width: 250px;
+}
+label {
+	margin-left: 2px;
+
+}
+input {
+	width: 200px;
+	background: #5E93C9;
+	display: block;
+	border: 1px solid white;
+	padding: 4px;
+	margin-top: 3px;
+	margin-bottom: 20px;
+	font-style: italic;   
+}
+select {
+	background-color: #5E93C9; 
+	color: white;
+	width: 200px;
+	margin-bottom: 20px;
+}
+select:focus {
+	background-color: #CEDEE3;
+	border:2px solid #0E3EB7;
+}
+
+textarea {
+	background-color: #5E93C9;
+	margin-top: 3px;
+	width: 200px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+textarea:focus {
+	background-color: #CEDEE3;
+	font-style: normal;
+	color: #444F59;
+	border:2px solid #0E3EB7;
+}
+.diffBorder{
+	border: 1px solid lightgrey;
+}
